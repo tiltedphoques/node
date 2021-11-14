@@ -968,7 +968,7 @@ struct SnapshotData {
   EnvSerializeInfo env_info;
 };
 
-class Environment : public MemoryRetainer {
+class NODE_EXTERN Environment : public MemoryRetainer {
  public:
   Environment(const Environment&) = delete;
   Environment& operator=(const Environment&) = delete;
